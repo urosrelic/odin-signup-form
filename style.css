@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+body, html {
+    height: 100%;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    background: url("resources/background.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: flex-start;
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+}
+
+.brand-img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-img > img {
+    margin: 0 auto;
+    padding: 5px;
+    height: 75px;
+    width: 75px;
+}
+
+.brand-name {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.brand-text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.brand-text {
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+#signup-text {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.form-container {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 100px;
+    border-radius: 15px;
+    background-color: #20569C;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    justify-content: center;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+a:hover {
+    color: #F6C0A2;
+}
+
+.input-control input {
+    padding: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid #20569C;
+    color: black;
+    transition: all 300ms;
+}
+
+input[type=submit] {
+    color: black;
+    cursor: pointer;
+}
+
+form input:focus {
+    outline: none;
+}
+
+input.error {
+    border: 2px solid red;
+}
+
+input.success {
+    border: 2px solid green;
+}
+
+.errorDisplay.error {
+    color: red;
+}

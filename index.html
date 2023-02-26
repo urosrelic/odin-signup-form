@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="content">
+        <div class="left-container">
+            <div class="brand">
+                <div class="brand-img">
+                    <img src="resources/odin-lined.png" alt="viking">
+                </div>
+                <div class="brand-name">
+                    <h1>The Odin Project</h1>
+                    <p style="margin-left: 5px">The best way to start your web development journey</p>
+                </div>
+            </div>
+            <div class="brand-text">
+                <span id="signup-text">Sign up and get started right away.</span>
+            </div>
+            <div class="website-link">
+                <a id="website-link" href="https://www.theodinproject.com/" target="_blank">https://www.theodinproject.com/</a>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="form-container">
+                <h1>Sign up</h1>
+                <form id="form" action="#" method="post">
+                    <div class="input-control">
+                        <input id="name" type="text" placeholder="Name" name="name">
+                        <div class="errorDisplay"></div>
+                    </div>
+                    <div class="input-control">
+                        <input id="last-name" type="text" placeholder="Last name" name="last-name">
+                        <div class="errorDisplay"></div>
+
+                    </div>
+                    <div class="input-control">
+                        <input type="email" placeholder="Email" name="email">
+                        <div class="errorDisplay"></div>
+
+                    </div>
+                    <div class="input-control">
+                        <input type="tel" placeholder="Phone number" name="phone">
+                        <div class="errorDisplay"></div>
+
+                    </div>
+                    <div class="input-control">
+                        <input type="password" id="password" placeholder="Enter your password" name="pass">
+                        <div class="errorDisplay"></div>
+
+                    </div>
+                    <div class="input-control">
+                        <input type="password" id="confirm-password" placeholder="Confirm your password" name="confirm-pass">
+                        <div class="errorDisplay"></div>
+                    </div>
+                    <div class="input-control">
+                        <input type="submit" value="Sign up">
+                    </div>
+                </form>
+                Already have an account?<a href="#">Log in</a>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
